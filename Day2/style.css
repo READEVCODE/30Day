@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+  }
+  
+  .digitale-klok {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .klok {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+  }
+  
+  .klok-inhoud {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wijzer {
+    position: absolute;
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+  }
+  
+  .uren-wijzer{
+    width: 50%;
+    height: 8px;
+    background: blue;
+  }
+  
+  .minuten-wijzer {
+    width: 50%;
+    height: 6px;
+    background: gray;
+  }
+  
+  .seconden-wijzer {
+    width: 50%;
+    height: 4px;
+    background: red;
+  }
+  
+  .pin {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    z-index: 99;
+    top: 48%;
+    left: 48%;
+  }
+  
+  
