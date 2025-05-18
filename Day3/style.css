@@ -1,0 +1,27 @@
+:root {
+    --achtergrondkleur: #BD1521;
+    --ruimte: 25px;
+    --scherpte: 10px;
+  }
+
+  img {
+    padding: var(--ruimte);
+    background: var(--achtergrondkleur);
+    filter: blur(var(--scherpte));
+  }
+
+  body {
+    text-align: center;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 20;
+    font-size: 20px;
+  }
+
+  .controllers {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
